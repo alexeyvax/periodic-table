@@ -1,0 +1,12 @@
+@import "../../../variables.css";
+
+.container h4 {
+    height: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.list {
+    margin-bottom: var(--cell-margin);
+    font-size: 14px;
+}

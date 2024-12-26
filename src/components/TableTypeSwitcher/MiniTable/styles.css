@@ -1,0 +1,20 @@
+@import "../../../variables.css";
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.miniCell {
+    width: var(--cell-size-mini);
+    height: var(--cell-size-mini);
+    margin-right: 0;
+    list-style: none;
+    border: var(--border-size) solid transparent;
+    overflow: hidden;
+}

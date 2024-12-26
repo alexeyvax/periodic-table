@@ -1,0 +1,74 @@
+@import "./variables.css";
+
+.centerContainer {
+    width: 100%;
+    max-width: var(--max-page-width);
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.superLongCenterContainer {
+    max-width: var(--super-long-table-width);
+}
+
+.periodItem,
+.groupItem {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.groups,
+.row > ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.groupItem,
+.cell,
+.emptyCell {
+    display: flex;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    padding: 2px;
+    margin-right: var(--cell-margin);
+    box-sizing: border-box;
+}
+.groupItem:last-child,
+.cell:last-child,
+.emptyCell:last-child {
+    margin-right: 0;
+}
+
+.nobleGas {
+    background-color: var(--nobble-gas-color);
+}
+.diatomicNonMetals {
+    background-color: var(--diatomic-non-metals-color);
+}
+.transitionMetal {
+    background-color: var(--transition-metal-color);
+}
+.postTransitionMetal {
+    background-color: var(--post-transition-metal-color);
+}
+.metalloid {
+    background-color: var(--metalloid-color);
+}
+.alkaliMetal {
+    background-color: var(--alkali-metal-color);
+}
+.alkalineEarthMetal {
+    background-color: var(--alkaline-earth-metal-color);
+}
+.unknownProperties {
+    background-color: var(--unknown-properties-color);
+}
+.actinide {
+    background-color: var(--actinide-color);
+}
+.lanthanide {
+    background-color: var(--lanthanide-color);
+}

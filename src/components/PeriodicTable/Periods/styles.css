@@ -1,0 +1,37 @@
+@import "../../../variables.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.periodsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.periodsContainer h4 {
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    padding: 2px;
+    margin-bottom: var(--cell-margin);
+    font-size: 14px;
+    box-sizing: border-box;
+}

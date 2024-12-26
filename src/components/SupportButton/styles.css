@@ -1,0 +1,31 @@
+@import "../../variables.css";
+
+.supportButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.supportButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+}
+
+.supportButton img {
+    width: 20px;
+    margin-left: 6px;
+    transform: rotate(0);
+    transition: transform .2s;
+}
+
+.supportButton:hover img {
+    transform: rotate(-15deg);
+}

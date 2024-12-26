@@ -1,0 +1,20 @@
+@import "../../../../variables.css";
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: calc(var(--cell-size) + var(--cell-margin)) 0 0 0;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: var(--cell-size);
+    padding: 2px 4px 2px 2px;
+    margin-bottom: var(--cell-margin);
+    font-size: 12px;
+    box-sizing: border-box;
+}

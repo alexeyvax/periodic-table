@@ -1,0 +1,32 @@
+:root {
+    --main-font-size: 16px;
+    --max-page-width: 1280px;
+    --super-long-table-width: 2180px;
+
+    --cell-size: 60px;
+    --cell-size-mini: 4px;
+    --cell-margin: 4px;
+    --cell-main-text-size: 18px;
+    --cell-small-text-size: 9px;
+    --border-size: 1px;
+    
+    /* colors */
+    --active-border-color: #000000;
+    --dark: #242329;
+    --white: #ffffff;
+    --light-grey: #a0a0a0;
+    --grey: #dedede;
+    --blue: #5c47f6;
+    --green: #008000;
+
+    --nobble-gas-color: #ffe7eb;
+    --diatomic-non-metals-color: #e2eeff;
+    --transition-metal-color:#f3e8fd;
+    --post-transition-metal-color: #d6f9e8;
+    --metalloid-color: #fef7e1;
+    --alkali-metal-color: #d8f8ff;
+    --alkaline-earth-metal-color: #ffe7e7;
+    --unknown-properties-color: #e7e7ea;
+    --actinide-color: #fee6d4;
+    --lanthanide-color: #dff3ff;
+}

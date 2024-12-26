@@ -1,0 +1,25 @@
+@import "../../variables.css";
+
+.container {
+    display: inline-flex;
+    margin-bottom: 14px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    margin-right: 10px;
+    color: var(--grey);
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.active {
+    color: var(--dark);
+    cursor: default;
+    border-color: var(--blue);
+}

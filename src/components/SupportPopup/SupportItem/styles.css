@@ -1,0 +1,38 @@
+@import "../../../variables.css";
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.addressText {
+    margin-right: 12px;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.address button {
+    margin: 0;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.address button svg path {
+    fill: var(--dark);
+    transition: fill .2s;
+}
+.address button:hover svg path {
+    fill: var(--grey);
+}
+.address button:active svg path {
+    fill: var(--green);
+}

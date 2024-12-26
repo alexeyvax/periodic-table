@@ -1,0 +1,40 @@
+@import "../../variables.css";
+
+.container {
+    display: flex;
+}
+
+.categories {
+    display: flex;
+    width: 960px;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.category {
+    width: 240px;
+    list-style: none;
+}
+
+.category button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.categoryIcon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: var(--border-size) solid transparent;
+}
+.selectedCategory button .categoryIcon {
+    border-color: var(--active-border-color);
+}

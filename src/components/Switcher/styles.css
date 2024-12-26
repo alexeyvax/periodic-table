@@ -1,0 +1,30 @@
+@import "../../variables.css";
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 4px;
+    border: var(--border-size) solid var(--grey);
+    border-radius: 4px;
+}
+
+.container li {
+    list-style: none;
+}
+
+.container li button {
+    margin: 0;
+    padding: 6px 12px;
+    color: var(--grey);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.container li.active button {
+    color: var(--white);
+    cursor: default;
+    background-color: var(--blue);
+}
