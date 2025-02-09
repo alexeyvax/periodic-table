@@ -9,7 +9,7 @@ const Footer = () => {
             <span>{new Date().getFullYear()}</span>
             <Link
                 href="/"
-                content="alexeyvax"
+                content="Mr. Oleski"
                 className={styles.link}
             />
         </footer>
